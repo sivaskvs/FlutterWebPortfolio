@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:sivasubramanian/config/assets.dart';
 import 'package:sivasubramanian/config/constants.dart';
 import 'package:flutter/material.dart';
@@ -98,9 +99,11 @@ class _HomeMaterialState extends State {
                                     final form = _formKey.currentState;
                                     if (form.validate()) {
                                       form.save();
-                                      _user.save();
+                                      final data = User(firstName:_user.firstName,lastName: _user.lastName, emailId: _user.emailId, mobileNum: _user.mobileNum, message: _user.message);               
+                                      Firestore.instance.collection('contacts').add(data.toMap());
+                                      // _user.save();
                                       _showDialog(context);
-                                      // form.reset();
+                                      form.reset();
                                     }
                                   },
                                   child: Text('Save'))),
