@@ -8,6 +8,10 @@ class Assets{
   static const linkedin = 'assets/linkedin.png';
   static const medium = 'assets/medium.png';
   static const twitter= 'assets/twitter.png';
+  static const love = 'assets/heart.png';
+  static const flutterImg = 'assets/flutter.png';
+  static const firebaseImg = 'assets/firebase.png';
+
   static const cocoapay = 'assets/works/cocoapay.png';
   static const facelyt = 'assets/works/facelyt.png';
   static const kharedi_now = 'assets/works/kharedi_now.png';
