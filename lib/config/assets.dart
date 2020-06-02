@@ -12,9 +12,11 @@ class Assets{
   static const flutterImg = 'assets/flutter.png';
   static const firebaseImg = 'assets/firebase.png';
 
-  static const cocoapay = 'assets/works/cocoapay.png';
-  static const facelyt = 'assets/works/facelyt.png';
-  static const kharedi_now = 'assets/works/kharedi_now.png';
+  static const radio = 'assets/radio.png';
+  static const flutter = 'assets/flutter.png';
+  static const coursera = 'assets/coursera.jpeg';
+  static const ks = 'assets/ks.png';
+  static const tf = 'assets/tensorflow.png';
   static const messio = 'assets/works/messio.png';
   static const mydealer = 'assets/works/mydealer.png';
   static const mynewcar = 'assets/works/mynewcar.png';

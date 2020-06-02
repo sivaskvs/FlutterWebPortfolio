@@ -8,7 +8,7 @@ class StepperExperienceTab2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // debugShowCheckedModeBanner: false,
-      title: 'Flutter Timeline Demo',
+      title: 'Timeline',
       theme: Theme.of(context),
       // theme: ThemeData(
       //   primaryColor: ,
