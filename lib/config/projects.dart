@@ -9,6 +9,12 @@ final List<Project> projects = [
       'Web scrapping and NLP project for generating lyrics from web scrapped lyrics Dataset.',
       link: 'https://github.com/sivaskvs/Tamil-lyrics-generator-NLP'),
   Project(
+      name: 'Machine Learning with R',
+      image: Assets.rprogram,
+      description:
+      'Shiny RMD presentation of Regression and Classification for UCI repository datasets using R',
+      link: 'https://rpubs.com/sivaskvs/advanalysis'),
+  Project(
       name: 'Flutter web portfolio',
       image: Assets.flutter,
       description:

@@ -17,6 +17,7 @@ class Assets{
   static const coursera = 'assets/coursera.jpeg';
   static const ks = 'assets/ks.png';
   static const tf = 'assets/tensorflow.png';
+  static const rprogram = 'assets/rlogo.png';
   static const messio = 'assets/works/messio.png';
   static const mydealer = 'assets/works/mydealer.png';
   static const mynewcar = 'assets/works/mynewcar.png';
