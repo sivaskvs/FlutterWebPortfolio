@@ -5,4 +5,5 @@ class Constants{
   static const PROFILE_GITHUB = 'https://github.com/sivaskvs';
   static const PROFILE_TWITTER = 'https://twitter.com/siva_kvs';
   static const PROFILE_INSTAGRAM = 'https://www.instagram.com/siva_kvs/';
+  static const RESUME = 'https://drive.google.com/file/d/1Kjmovz0U47XR1F1q1RXYATdnVWd8cebI/view?usp=sharing';
 }

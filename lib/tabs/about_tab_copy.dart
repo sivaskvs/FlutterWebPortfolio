@@ -38,9 +38,14 @@ class AboutTabCopy extends StatelessWidget {
                   textScaleFactor: 2,
                   textAlign: TextAlign.left,
                 ),
-              SizedBox(
-                height: 40,
-              ),
+              FlatButton.icon(
+                    icon: SizedBox(
+                        width: 20,
+                        height: 20,
+                        child: Image.asset(Assets.resume)),
+                    label: Text('Resume'),
+                    onPressed:()=> html.window.open(Constants.RESUME,'siva' ),
+                  ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -128,8 +133,16 @@ class AboutTabCopy extends StatelessWidget {
                   textAlign: TextAlign.left,
                 ),
               SizedBox(
-                height: 40,
+                height: 5,
               ),
+              FlatButton.icon(
+                    icon: SizedBox(
+                        width: 20,
+                        height: 20,
+                        child: Image.asset(Assets.resume)),
+                    label: Text('Resume'),
+                    onPressed:()=> html.window.open(Constants.RESUME,'siva' ),
+                  ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,

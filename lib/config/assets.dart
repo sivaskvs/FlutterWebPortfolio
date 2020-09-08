@@ -11,6 +11,7 @@ class Assets{
   static const love = 'assets/heart.png';
   static const flutterImg = 'assets/flutter.png';
   static const firebaseImg = 'assets/firebase.png';
+  static const resume = 'assets/resume.png';
 
   static const radio = 'assets/radio.png';
   static const flutter = 'assets/flutter.png';
