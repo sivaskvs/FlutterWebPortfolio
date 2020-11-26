@@ -24,6 +24,18 @@ class Doodle {
 
 const List<Doodle> doodles = [
   Doodle(
+      name: "SIDERO TECHNOLOGIES",
+      title: "Software Developer",
+      time: "Oct 2020 - Present",
+      website: "https://www.sidero.ie/",
+      place: "Athlone Ireland",
+      content:
+          "*-* Working on Ericsson Network Manager's Domain Proxy service in Citizens Broadband Radio Service ",
+      doodle:
+          "https://www.google.com/logos/doodles/2016/abd-al-rahman-al-sufis-azophi-1113th-birthday-5115602948587520-hp2x.jpg",
+      icon: Icon(Icons.developer_mode, color: Colors.white),
+      iconBackground: Colors.cyan),
+  Doodle(
       name: "GOFRUGAL TECHNOLOGIES",
       title: "Member Technical Staff",
       time: "Jun 2017- Jun 2019",

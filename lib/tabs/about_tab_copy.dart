@@ -33,7 +33,7 @@ class AboutTabCopy extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                  'Data Analyst. Full Stack Developer.\nPython. R. Machine Learning.\nAndroid. Java. Kotlin. Spring. Angular. \nFlutter. Firebase. TensorFlow.\nPhotography. Travelling.',
+                  'Software Engineer. Full Stack Developer. Data Enthusiast.\nJava. Kotlin. Spring. Android. Angular.\nPython. R. Machine Learning.\nFlutter. Firebase. TensorFlow.\nPhotography. Travelling.',
                   style: Theme.of(context).textTheme.caption,
                   textScaleFactor: 2,
                   textAlign: TextAlign.left,
@@ -127,7 +127,7 @@ class AboutTabCopy extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                  'Data Analyst. Full Stack Developer.\nPython. R. Machine Learning.\nAndroid. Java. Kotlin. Spring. Angular. \nFlutter. Firebase. TensorFlow.\nPhotography. Travelling.',
+                  'Software Engineer. Full Stack Developer. Data Enthusiast.\nJava. Kotlin. Spring. Android. Angular.\nPython. R. Machine Learning.\nFlutter. Firebase. TensorFlow.\nPhotography. Travelling.',
                   style: Theme.of(context).textTheme.caption,
                   textScaleFactor: 2,
                   textAlign: TextAlign.left,
